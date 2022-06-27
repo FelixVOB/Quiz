@@ -1,0 +1,22 @@
+{
+  "name": "ucll-frontend-gevorderd-opdracht-quiz",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Zorg ervoor dat [Node](https://nodejs.org/en/download/) geïnstalleerd is.   Je kan snel starten door een terminal te openen in deze directory en vervolgens ```npm run start``` uit te voeren.  De API van de webapplicatie is dan beschikbaar op [http://localhost:3000/api/quiz](http://localhost:3000/api/quiz).",
+  "scripts": {
+    "start": "npm install && concurrently \"cd server && npm run start\" \"cd client && echo 'Vervang deze echo eventueel door een start script van je client ...'\""
+  },
+  "keywords": [
+    "UCLL",
+    "FEG",
+    "Opdracht3"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "concurrently": "^7.2.0",
+    "jquery": "^3.6.0"
+  },
+  "main": "index.js",
+  "devDependencies": {}
+}
